@@ -38,11 +38,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Components.Authorization": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.6, )"
             },
-            "Microsoft.AspNetCore.Components.WebAssembly": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
               "target": "Package",
               "version": "[6.0.6, )"
             },

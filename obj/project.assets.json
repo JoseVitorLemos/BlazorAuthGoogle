@@ -95,6 +95,25 @@
           "build/net6.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.6",
+          "Microsoft.AspNetCore.Components.Web": "6.0.6"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.6": {
         "type": "package",
         "build": {
@@ -497,6 +516,25 @@
         },
         "build": {
           "build/net6.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.6",
+          "Microsoft.AspNetCore.Components.Web": "6.0.6"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props": {}
         }
       },
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.6": {
@@ -915,6 +953,26 @@
         "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.xml",
         "microsoft.aspnetcore.components.webassembly.6.0.6.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.6": {
+      "sha512": "vKG27b6TsGI4BdNLQxPp40/0gNLQpx7qYZZNnsSxmvwvxHWvLteKO5Yj6XE0rjs+XqVfT1x2X7f4ayFg5cCv9Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.webassembly.authentication/6.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props",
+        "buildTransitive/Microsoft.AspNetCore.Components.WebAssembly.Authentication.props",
+        "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.xml",
+        "microsoft.aspnetcore.components.webassembly.authentication.6.0.6.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.authentication.nuspec",
+        "staticwebassets/AuthenticationService.js"
       ]
     },
     "Microsoft.AspNetCore.Components.WebAssembly.DevServer/6.0.6": {
@@ -1582,8 +1640,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Components.Authorization >= 6.0.6",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.6",
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication >= 6.0.6",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.6"
     ]
   },
@@ -1624,11 +1682,11 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Authorization": {
+          "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.6, )"
           },
-          "Microsoft.AspNetCore.Components.WebAssembly": {
+          "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
             "target": "Package",
             "version": "[6.0.6, )"
           },
