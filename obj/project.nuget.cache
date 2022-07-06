@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DuZzfq+wE+DeiigvzR1RWzVBbJ+SqeaRJyWnz1qmhulkD+VMMcSdkmbd/RjXwERoRB89rkqEjKVCddU4zMd/0w==",
+  "dgSpecHash": "eeLznnHeW2w6DuXEEd1FzfNhPh5+fBnBDVQtNQRtkhB5Gp+kpV/PyaEDRH9hzJE+sBgWrygFJKyrQneGYrjk9A==",
   "success": true,
   "projectFilePath": "/home/rick/Documentos/Projetos/codes/dotnet/BlazorAuthGoogle/BlazorAuthGoogle.csproj",
   "expectedPackageFiles": [
     "/home/rick/.nuget/packages/microsoft.aspnetcore.authorization/6.0.6/microsoft.aspnetcore.authorization.6.0.6.nupkg.sha512",
     "/home/rick/.nuget/packages/microsoft.aspnetcore.components/6.0.6/microsoft.aspnetcore.components.6.0.6.nupkg.sha512",
     "/home/rick/.nuget/packages/microsoft.aspnetcore.components.analyzers/6.0.6/microsoft.aspnetcore.components.analyzers.6.0.6.nupkg.sha512",
+    "/home/rick/.nuget/packages/microsoft.aspnetcore.components.authorization/6.0.6/microsoft.aspnetcore.components.authorization.6.0.6.nupkg.sha512",
     "/home/rick/.nuget/packages/microsoft.aspnetcore.components.forms/6.0.6/microsoft.aspnetcore.components.forms.6.0.6.nupkg.sha512",
     "/home/rick/.nuget/packages/microsoft.aspnetcore.components.web/6.0.6/microsoft.aspnetcore.components.web.6.0.6.nupkg.sha512",
     "/home/rick/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.6/microsoft.aspnetcore.components.webassembly.6.0.6.nupkg.sha512",
