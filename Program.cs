@@ -10,9 +10,7 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 
 builder.Services.AddOidcAuthentication(options =>
 {
-    options.ProviderOptions.DefaultScopes.Add("email");
-    options.UserOptions.NameClaim = "email";
-    builder.Configuration.Bind("Local", options.ProviderOptions);
+  builder.Configuration.Bind("Local", options.ProviderOptions);
 });
 
 await builder.Build().RunAsync();
